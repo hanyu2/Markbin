@@ -1,11 +1,12 @@
 import React from 'react';
-import Head from './header';
-
+import Header from './header';
+import BinsList from './bins/bins_list';
 
 export default () => {
   return (
     <div>
-       <Head />
+       <Header />
+       <BinsList />
     </div>
   );
 };
